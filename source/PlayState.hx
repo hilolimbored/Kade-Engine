@@ -2576,6 +2576,11 @@ class PlayState extends MusicBeatState
 									if (curBeat % 8 == 7)
 									{
 										if (!triggeredAlready)
+ if (dad.curCharacter == 'Your Character here')
+            {
+                health -= 0.0025;
+
+            }
 										{
 											gf.playAnim('cheer');
 											triggeredAlready = true;
